@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 
 def view(originalImg, encodedImg, predictedImg):
-
     plt.figure(figsize=(40, 4))
     for i in range(10):
         # display original images
