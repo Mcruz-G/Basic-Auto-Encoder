@@ -10,12 +10,12 @@ def view(originalImg, encodedImg, predictedImg):
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
         
-        # display encoded images
-        ax = plt.subplot(3, 20, i + 1 + 20)
-        plt.imshow(encodedImg[i].reshape(8,4))
-        plt.gray()
-        ax.get_xaxis().set_visible(False)
-        ax.get_yaxis().set_visible(False)
+        # # display encoded images
+        # ax = plt.subplot(3, 20, i + 1 + 20)
+        # plt.imshow(encodedImg[i].reshape(8,4))
+        # plt.gray()
+        # ax.get_xaxis().set_visible(False)
+        # ax.get_yaxis().set_visible(False)
         
     # display reconstructed images
         ax = plt.subplot(3, 20, 2*20 +i+ 1)
