@@ -4,10 +4,10 @@ Quick implementation of GANS to train a discriminative Neural network to classif
 
 -discriminator.py: Discriminative model
 
--GANS.py: Here lies the GANS class and all it's function
+-GANS.py: Here lies the GANS class and all its functions
 
 -generative.py: Generative model
 
 -myGans.py: Main file; you should run the code here.
 
-Pending documentation...
+Pending documentation ...
